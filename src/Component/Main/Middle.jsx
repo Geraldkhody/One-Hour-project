@@ -81,13 +81,13 @@ const Middle = () => {
 
 
         <>  
-            <div className='grid gap-5 grid-cols-1 xs:grid-cols-2 md:grid-cols-3 w-full'>
+            <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full'>
                 {MiddleContentData.map((item, index) => (
                     <MiddleContent1 key={index} subjectImage={item.subjectImage} title={item.title} userImage={item.userImage} list={item.list} />
                 ))}
             </div> 
 
-            <div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 rounded-md gap-5 md:gap-[70px] mt-10 `}>
+            <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-md gap-5 md:gap-[70px] mt-10 `}>
                 {Middle2Data.map((item, index) => (
                     <Middle2Temp key={index} image={item.image} title={item.title} list={item.list} />
                 ))}
