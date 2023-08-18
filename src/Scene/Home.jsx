@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../Component/Header'
-import Content from '../Component/Content'
-import Footer from '../Component/Footer'
+import Header from '../Component/Header/Header'
+import Main from '../Component/Main/Main'
+import Footer from '../Component/Footer/Footer'
 
 const Home = () => {
   return (
@@ -17,7 +17,7 @@ const Home = () => {
         </div>
         
         <div className='m-auto pt-5'>
-          <Content />
+          <Main />
 
         </div>
       <Footer />

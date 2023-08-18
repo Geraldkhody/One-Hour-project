@@ -6,7 +6,7 @@ const Header = () => {
     <div className="w-[90%] md:w-[80%] lg:w-[70%] m-auto flex flex-col justify-between h-full">
       <NavBar />
 
-      <div className='flex flex-col h-[100%] items-center md:justify-end md:bottom-6'>
+      <div className='flex h-full flex-col justify-center md:justify-end md:bottom-2'>
         <div>
             <div className='flex mb-2'>
               <div className='rounded-full mr-1 w-5 h-5 bg-pink-600'></div>
@@ -35,32 +35,32 @@ const Header = () => {
         </div>
 
 
-          <div className='hidden md:flex items-center mt-16 text-sm'>
-            <div className='flex mr-5 mb-3 md:mb-0'>
-              <img className='rounded-full mr-3 w-10 h-10' src="/image/photo-1690149347199-f1e5751e42f7.avif" alt="" />
-              <span>
-                Lorem ipsum <br />dolor amet.
-              </span>
-            </div>
-            <div className='flex mr-5 mb-3 md:mb-0'>
-              <img className='rounded-full mr-3 w-10 h-10' src="/image/photo-1690149347199-f1e5751e42f7.avif" alt="" />
-              <span>
-                Lorem ipsum <br />dolor amet.
-              </span>
-            </div>
-            <div className='flex mr-5 mb-3 md:mb-0'>
-              <img className='rounded-full mr-3 w-10 h-10' src="/image/photo-1690149347199-f1e5751e42f7.avif" alt="" />
-              <span>
-                Lorem ipsum <br />dolor amet.
-              </span>
-            </div>
-            <div className='flex mr-5 mb-3 md:mb-0'>
-              <img className='rounded-full mr-3 w-10 h-10' src="/image/photo-1690149347199-f1e5751e42f7.avif" alt="" />
-              <span>
-                Lorem ipsum <br />dolor amet.
-              </span>
-            </div>
+        <div className='hidden md:flex items-center mt-16 text-sm'>
+          <div className='flex mr-5 mb-3 md:mb-0'>
+            <img className='rounded-full mr-3 w-10 h-10' src="/image/photo-1690149347199-f1e5751e42f7.avif" alt="" />
+            <span>
+              Lorem ipsum <br />dolor amet.
+            </span>
           </div>
+          <div className='flex mr-5 mb-3 md:mb-0'>
+            <img className='rounded-full mr-3 w-10 h-10' src="/image/photo-1690149347199-f1e5751e42f7.avif" alt="" />
+            <span>
+              Lorem ipsum <br />dolor amet.
+            </span>
+          </div>
+          <div className='flex mr-5 mb-3 md:mb-0'>
+            <img className='rounded-full mr-3 w-10 h-10' src="/image/photo-1690149347199-f1e5751e42f7.avif" alt="" />
+            <span>
+              Lorem ipsum <br />dolor amet.
+            </span>
+          </div>
+          <div className='flex mr-5 mb-3 md:mb-0'>
+            <img className='rounded-full mr-3 w-10 h-10' src="/image/photo-1690149347199-f1e5751e42f7.avif" alt="" />
+            <span>
+              Lorem ipsum <br />dolor amet.
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   )

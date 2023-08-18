@@ -1,9 +1,9 @@
 import React from 'react';
-import Top from './Top1';
+import Top from './Top';
 import Middle from './Middle';
 import Bottom from './Bottom';
 
-const Content = () => {
+const Main = () => {
   return (
     <div className=''>
       <Top />
@@ -13,4 +13,4 @@ const Content = () => {
   )
 }
 
-export default Content
+export default Main

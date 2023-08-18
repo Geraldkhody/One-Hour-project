@@ -1,9 +1,9 @@
 import React from 'react';
 import style from "./Top.module.css";
 
-const Top1 = () => {
+const Top = () => {
   return (
-    <div className={style.wrapper}>
+    <div className='w-[90%] md:w-[80%] lg:w-[70%] m-auto mb-[2rem]'>
     <div className={style.container}>
         <div className={style.box1}>
             {/* ----- Background image ------- */}
@@ -93,4 +93,4 @@ const Top1 = () => {
   )
 }
 
-export default Top1;
+export default Top;
